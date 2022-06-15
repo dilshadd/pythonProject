@@ -23,8 +23,8 @@ credentials = service_account.Credentials.from_service_account_file(KEY_FILE_LOC
 
 # zen cred
 creds = {
-    'email': 'viraaj@headout.com',
-    'token': 'BWKRETavF5Yuj8HTnFaekh5XIyxt0csPLoIuXOdU',
+    'email': 'MAIL',
+    'token': 'TOKEN HERE',
     'subdomain': 'headoutfin'
 }
 zenpy_client = Zenpy(proactive_ratelimit=100, **creds)
