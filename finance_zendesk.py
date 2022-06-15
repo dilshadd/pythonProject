@@ -10,8 +10,8 @@ import pandas as pd
 # }
 
 creds = {
-    'email': 'viraaj@headout.com',
-    'token': 'BWKRETavF5Yuj8HTnFaekh5XIyxt0csPLoIuXOdU',
+    'email': 'MAIL',
+    'token': 'TOKEN',
     'subdomain': 'headoutfin'
 }
 
