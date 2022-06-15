@@ -1,0 +1,2 @@
+,created_at,experience_date,experience_time,booking_id,customer_name,tour_group_name,variant_name,TGID,TID,booking_status,city,tour_currency_code,pax_summary,num_adult,num_child,num_general,num_youth,num_student,num_senior,num_infant,num_group,num_family,total_pax,price_net,amount_refunded,vendor_id,fulfilment_type,completion_type,sp_name_on_DB,sp_name_in_sheet
+21022,2021-10-26,2021-10-28,11:30:00,7469818,Maxime St-Gelais,Meteora Express Tour,Default,15170,28552,Completed,Meteora,EUR,adult : 1,1,0,0,0,0,0,0,0,0,1,19.12,,2590,Vendor Api,Super,METEORA TRIP,Meteora Trip

@@ -1,0 +1,160 @@
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+}
+
+.jumbotron svg {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.jumbotron h1 {
+    font-size: 24px;
+    line-height: 100px;
+}
+
+.jumbotron p {
+    font-size: 14px;
+}
+
+table th {
+    border-top: 0 !important;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+table tr:last-child th {
+    padding: 0;
+}
+
+table tr:last-child th {
+    background-color: #f8f9fa;
+    border-right: 3px solid #fff;
+    font-size: 12px;
+    color: #bbb;
+    text-align: center;
+}
+
+table tr:first-child th {
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+table tr.highlight {
+    border: 2px solid rgb(255, 164, 0);
+}
+
+table td {
+    position: relative;
+}
+
+.pb-0 {
+    min-width: 300px;
+}
+
+.no-style {
+    color: inherit;
+}
+
+.link-gray {
+    color: #bbb;
+}
+
+.icon-link svg {
+    color: #007bff;
+    transform: scale(.5);
+}
+
+.icon-mirror svg {
+    color: #007bff;
+    transform: scale(.5) rotate(180deg);
+}
+
+*[data-toggle="tooltip"]:hover {
+    cursor: pointer;
+}
+
+.dropdown-toggle {
+    margin-top: 10px;
+    color: #007bff;
+    font-size: 1.5rem;
+    transform: rotate(90deg);
+}
+
+.dropdown-toggle:hover {
+    cursor: pointer;
+    color: #0056b3;
+}
+
+.dropdown-toggle:after {
+    display: none;
+}
+
+.dropdown-item svg {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.tooltip .tooltip-inner {
+    padding: .5rem;
+    font-size: .8rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.trend-indicator {
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    left: 10px;
+    border: 4px solid white;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.trend-indicator.asc {
+    transform: rotate(-45deg);
+    background-color: rgb(12, 206, 107);
+}
+
+.trend-indicator.desc {
+    transform: rotate(45deg);
+    background-color: rgb(255, 78, 66);
+}
+
+iframe {
+    width: 100%;
+    border: 0;
+}
+
+footer {
+    margin-top: 50px;
+    z-index:100;
+}
+
+footer .jumbotron {
+    margin-bottom: 0;
+}
+
+footer .jumbotron svg {
+    transform: scale(.5);
+    filter: grayscale(1);
+    opacity:.5;
+}
+
+footer .jumbotron svg:hover {
+    filter: grayscale(0);
+    opacity:1;
+}
